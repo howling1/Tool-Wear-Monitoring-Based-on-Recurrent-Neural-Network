@@ -1,0 +1,6 @@
+standard_LSTM_model.py：基于特征工程和LSTM的刀具磨损状态识别模型
+sequential_model.py：基于CNN与Bi-LSTM串行连接，并使用Focal Loss的刀具磨损状态识别模型
+parallel_model.py：基于CNN与Bi-LSTM并行连接，并使用Focal Loss的刀具磨损状态识别模型
+data：本文件夹包含原数据集，原数据集划分的训练集，测试集，校验集，生成的平衡数据集，生成的平衡数据集划分的训练集，测试集，校验集
+jupyter：本文件夹包含平衡数据集生成，特征分析，常用机器学习算法的对照实验
+model：包含毕设提出的三种识别模型
